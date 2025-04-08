@@ -1,5 +1,4 @@
-public class Building {
-
+public class Building implements BuildingRequirements{
     protected String name = "<Name Unknown>";
     protected String address = "<Address Unknown>";
     protected int nFloors = 1;
